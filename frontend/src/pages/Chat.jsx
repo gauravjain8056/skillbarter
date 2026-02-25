@@ -20,7 +20,7 @@ const Chat = () => {
   // Create the socket once per mount, clean up on unmount
   const socketRef = useRef(null);
   useEffect(() => {
-    const socket = io("http://localhost:8000", {
+    const socket = io("https://skillbarter-19iw.onrender.com", {
       autoConnect: true,
       withCredentials: false,
     });
@@ -176,8 +176,8 @@ const Chat = () => {
                 >
                   <div
                     className={`max-w-[70%] rounded-2xl px-3 py-1.5 text-xs md:text-sm ${isMine
-                        ? "bg-indigo-600 text-white rounded-br-sm"
-                        : "bg-slate-800 text-slate-100 rounded-bl-sm"
+                      ? "bg-indigo-600 text-white rounded-br-sm"
+                      : "bg-slate-800 text-slate-100 rounded-bl-sm"
                       }`}
                   >
                     <p>{msg.text}</p>
