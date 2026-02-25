@@ -3,7 +3,7 @@
 A full-stack web application designed to help students and professionals exchange knowledge without financial transactions. Users can offer skills they are proficient in, request to learn skills from others, and coordinate their learning sessions via real-time chat.
 
 ## 🚀 Live Demo
-**[Insert Live Link Here]**
+**[https://skillbarter-flax.vercel.app/]**
 
 ## 📖 Project Overview
 SkillBarter solves the problem of accessible education by creating a peer-to-peer marketplace for skills. Rather than paying for courses, users trade their expertise. The platform handles the complete lifecycle of a barter request: from secure user authentication and profile creation, to a relational request system (Inbox), down to real-time WebSocket-powered communication once a barter is accepted.
@@ -23,7 +23,7 @@ SkillBarter solves the problem of accessible education by creating a peer-to-pee
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YourUsername/skillbarter.git
+git clone https://github.com/gauravjain8056/skillbarter.git
 cd skillbarter
 ```
 
@@ -79,5 +79,5 @@ npm run dev
 
 **Gaurav Jain**
 
-* GitHub: [@YourUsername](https://github.com/YourUsername)
-* LinkedIn: [Your LinkedIn Profile URL]
+* GitHub: [@gauravjain8056](https://github.com/gauravjain8056)
+
